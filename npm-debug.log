@@ -1,0 +1,425 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'resolve' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json twitter-clone@1.0.0 No repository field.
+5 warn package.json node-libs-browser@0.1.2 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'resolve', null ]
+8 verbose cache add name=undefined spec="resolve" args=["resolve",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'resolve',
+9 verbose parsed url   path: 'resolve',
+9 verbose parsed url   href: 'resolve' }
+10 silly lockFile 4e7a2084-resolve resolve
+11 verbose lock resolve /root/.npm/4e7a2084-resolve.lock
+12 silly lockFile 4e7a2084-resolve resolve
+13 silly lockFile 4e7a2084-resolve resolve
+14 verbose addNamed [ 'resolve', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile a9c986b1-resolve resolve@
+17 verbose lock resolve@ /root/.npm/a9c986b1-resolve.lock
+18 silly addNameRange { name: 'resolve', range: '*', hasData: false }
+19 verbose url raw resolve
+20 verbose url resolving [ 'https://registry.npmjs.org/', './resolve' ]
+21 verbose url resolved https://registry.npmjs.org/resolve
+22 info trying registry request attempt 1 at 06:41:14
+23 http GET https://registry.npmjs.org/resolve
+24 http 200 https://registry.npmjs.org/resolve
+25 silly registry.get cb [ 200,
+25 silly registry.get   { server: 'nginx/1.10.1',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'last-modified': 'Tue, 08 Nov 2016 17:40:01 GMT',
+25 silly registry.get     etag: '"58220df1-adbc"',
+25 silly registry.get     'cache-control': 'max-age=300',
+25 silly registry.get     'content-length': '44476',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     date: 'Thu, 01 Dec 2016 06:41:17 GMT',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     age: '124',
+25 silly registry.get     connection: 'keep-alive',
+25 silly registry.get     'x-served-by': 'cache-ams4130-AMS',
+25 silly registry.get     'x-cache': 'HIT',
+25 silly registry.get     'x-cache-hits': '1',
+25 silly registry.get     'x-timer': 'S1480574477.920736,VS0,VE0',
+25 silly registry.get     vary: 'Accept-Encoding' } ]
+26 silly addNameRange number 2 { name: 'resolve', range: '*', hasData: true }
+27 silly addNameRange versions [ 'resolve',
+27 silly addNameRange   [ '0.0.0',
+27 silly addNameRange     '0.0.1',
+27 silly addNameRange     '0.0.2',
+27 silly addNameRange     '0.0.3',
+27 silly addNameRange     '0.0.4',
+27 silly addNameRange     '0.1.0',
+27 silly addNameRange     '0.1.2',
+27 silly addNameRange     '0.1.3',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.2',
+27 silly addNameRange     '0.2.3',
+27 silly addNameRange     '0.2.4',
+27 silly addNameRange     '0.2.5',
+27 silly addNameRange     '0.2.6',
+27 silly addNameRange     '0.2.7',
+27 silly addNameRange     '0.2.8',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.3.1',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.4.1',
+27 silly addNameRange     '0.4.2',
+27 silly addNameRange     '0.4.3',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.5.1',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.6.1',
+27 silly addNameRange     '0.6.2',
+27 silly addNameRange     '0.6.3',
+27 silly addNameRange     '0.7.0',
+27 silly addNameRange     '0.7.1',
+27 silly addNameRange     '0.7.2',
+27 silly addNameRange     '0.7.3',
+27 silly addNameRange     '0.7.4',
+27 silly addNameRange     '1.0.0',
+27 silly addNameRange     '1.1.0',
+27 silly addNameRange     '1.1.2',
+27 silly addNameRange     '1.1.3',
+27 silly addNameRange     '1.1.4',
+27 silly addNameRange     '1.1.5',
+27 silly addNameRange     '1.1.6',
+27 silly addNameRange     '1.1.7' ] ]
+28 verbose addNamed [ 'resolve', '1.1.7' ]
+29 verbose addNamed [ '1.1.7', '1.1.7' ]
+30 silly lockFile 48e02e1e-resolve-1-1-7 resolve@1.1.7
+31 verbose lock resolve@1.1.7 /root/.npm/48e02e1e-resolve-1-1-7.lock
+32 silly lockFile 84660c87-js-org-resolve-resolve-1-1-7-tgz https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz
+33 verbose lock https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz /root/.npm/84660c87-js-org-resolve-resolve-1-1-7-tgz.lock
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz',
+34 verbose addRemoteTarball   '203114d82ad2c5ed9e8e0411b3932875e889e97b' ]
+35 info retry fetch attempt 1 at 06:41:19
+36 verbose fetch to= /root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/tmp.tgz
+37 http GET https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz
+38 http 200 https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz
+39 verbose tar unpack /root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/tmp.tgz
+40 silly lockFile 787229ec-79384-0-5366878560744226-package tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/package
+41 verbose lock tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/package /root/.npm/787229ec-79384-0-5366878560744226-package.lock
+42 silly lockFile b68372d5-79384-0-5366878560744226-tmp-tgz tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/tmp.tgz
+43 verbose lock tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/tmp.tgz /root/.npm/b68372d5-79384-0-5366878560744226-tmp-tgz.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry LICENSE
+47 silly gunzTarPerm extractEntry index.js
+48 silly gunzTarPerm extractEntry .travis.yml
+49 silly gunzTarPerm extractEntry example/async.js
+50 silly gunzTarPerm extractEntry example/sync.js
+51 silly gunzTarPerm extractEntry lib/async.js
+52 silly gunzTarPerm extractEntry lib/caller.js
+53 silly gunzTarPerm extractEntry lib/core.js
+54 silly gunzTarPerm extractEntry lib/node-modules-paths.js
+55 silly gunzTarPerm extractEntry lib/sync.js
+56 silly gunzTarPerm extractEntry lib/core.json
+57 silly gunzTarPerm extractEntry readme.markdown
+58 silly gunzTarPerm extractEntry test/core.js
+59 silly gunzTarPerm extractEntry test/filter.js
+60 silly gunzTarPerm extractEntry test/filter_sync.js
+61 silly gunzTarPerm extractEntry test/mock.js
+62 silly gunzTarPerm extractEntry test/faulty_basedir.js
+63 silly gunzTarPerm extractEntry test/resolver_sync.js
+64 silly gunzTarPerm extractEntry test/module_dir.js
+65 silly gunzTarPerm extractEntry test/resolver.js
+66 silly gunzTarPerm extractEntry test/precedence.js
+67 silly gunzTarPerm extractEntry test/nonstring.js
+68 silly gunzTarPerm extractEntry test/dotdot.js
+69 silly gunzTarPerm extractEntry test/pathfilter.js
+70 silly gunzTarPerm extractEntry test/mock_sync.js
+71 silly gunzTarPerm extractEntry test/subdirs.js
+72 silly gunzTarPerm extractEntry test/node_path.js
+73 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/main.js
+74 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/package.json
+75 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/alt.js
+76 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/ref.js
+77 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/deeper/ref.js
+78 silly gunzTarPerm extractEntry test/precedence/aaa.js
+79 silly gunzTarPerm extractEntry test/precedence/bbb.js
+80 silly gunzTarPerm extractEntry test/precedence/aaa/index.js
+81 silly gunzTarPerm extractEntry test/precedence/aaa/main.js
+82 silly gunzTarPerm extractEntry test/precedence/bbb/main.js
+83 silly gunzTarPerm extractEntry test/dotdot/index.js
+84 silly gunzTarPerm extractEntry test/dotdot/abc/index.js
+85 silly gunzTarPerm extractEntry test/resolver/foo.js
+86 silly gunzTarPerm extractEntry test/resolver/mug.js
+87 silly gunzTarPerm extractEntry test/resolver/mug.coffee
+88 silly gunzTarPerm extractEntry test/resolver/cup.coffee
+89 silly gunzTarPerm extractEntry test/resolver/bar/node_modules/foo/index.js
+90 silly gunzTarPerm extractEntry test/resolver/incorrect_main/package.json
+91 silly gunzTarPerm extractEntry test/resolver/incorrect_main/index.js
+92 silly gunzTarPerm extractEntry test/resolver/baz/package.json
+93 silly gunzTarPerm extractEntry test/resolver/baz/doom.js
+94 silly gunzTarPerm extractEntry test/resolver/baz/quux.js
+95 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/package.json
+96 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/lib/index.js
+97 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/grux/index.js
+98 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/tiv/index.js
+99 silly gunzTarPerm extractEntry test/resolver/other_path/root.js
+100 silly gunzTarPerm extractEntry test/resolver/other_path/lib/other-lib.js
+101 silly gunzTarPerm extractEntry test/resolver/punycode/node_modules/punycode/index.js
+102 silly gunzTarPerm extractEntry test/resolver/quux/foo/index.js
+103 silly gunzTarPerm extractEntry test/resolver/without_basedir/main.js
+104 silly gunzTarPerm extractEntry test/resolver/without_basedir/node_modules/mymodule.js
+105 silly gunzTarPerm extractEntry test/node_path/x/aaa/index.js
+106 silly gunzTarPerm extractEntry test/node_path/x/ccc/index.js
+107 silly gunzTarPerm extractEntry test/node_path/y/bbb/index.js
+108 silly gunzTarPerm extractEntry test/node_path/y/ccc/index.js
+109 silly gunzTarPerm extractEntry test/module_dir/xmodules/aaa/index.js
+110 silly gunzTarPerm extractEntry test/module_dir/ymodules/aaa/index.js
+111 silly gunzTarPerm extractEntry test/module_dir/zmodules/bbb/package.json
+112 silly gunzTarPerm extractEntry test/module_dir/zmodules/bbb/main.js
+113 silly gunzTarPerm extractEntry test/subdirs/node_modules/a/package.json
+114 silly gunzTarPerm extractEntry test/subdirs/node_modules/a/b/c/x.json
+115 silly lockFile 787229ec-79384-0-5366878560744226-package tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/package
+116 silly lockFile 787229ec-79384-0-5366878560744226-package tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/package
+117 silly lockFile b68372d5-79384-0-5366878560744226-tmp-tgz tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/tmp.tgz
+118 silly lockFile b68372d5-79384-0-5366878560744226-tmp-tgz tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/tmp.tgz
+119 verbose tar pack [ '/root/.npm/resolve/1.1.7/package.tgz',
+119 verbose tar pack   '/root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/package' ]
+120 verbose tarball /root/.npm/resolve/1.1.7/package.tgz
+121 verbose folder /root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/package
+122 silly lockFile 787229ec-79384-0-5366878560744226-package tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/package
+123 verbose lock tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/package /root/.npm/787229ec-79384-0-5366878560744226-package.lock
+124 silly lockFile ffe3821d-ot-npm-resolve-1-1-7-package-tgz tar:///root/.npm/resolve/1.1.7/package.tgz
+125 verbose lock tar:///root/.npm/resolve/1.1.7/package.tgz /root/.npm/ffe3821d-ot-npm-resolve-1-1-7-package-tgz.lock
+126 silly lockFile 787229ec-79384-0-5366878560744226-package tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/package
+127 silly lockFile 787229ec-79384-0-5366878560744226-package tar:///root/tmp/npm-7204-SHnk5lA4/1480574479384-0.5366878560744226/package
+128 silly lockFile ffe3821d-ot-npm-resolve-1-1-7-package-tgz tar:///root/.npm/resolve/1.1.7/package.tgz
+129 silly lockFile ffe3821d-ot-npm-resolve-1-1-7-package-tgz tar:///root/.npm/resolve/1.1.7/package.tgz
+130 silly lockFile 7917ce6a-root-npm-resolve-1-1-7-package /root/.npm/resolve/1.1.7/package
+131 verbose lock /root/.npm/resolve/1.1.7/package /root/.npm/7917ce6a-root-npm-resolve-1-1-7-package.lock
+132 silly lockFile 7917ce6a-root-npm-resolve-1-1-7-package /root/.npm/resolve/1.1.7/package
+133 silly lockFile 7917ce6a-root-npm-resolve-1-1-7-package /root/.npm/resolve/1.1.7/package
+134 verbose tar unpack /root/.npm/resolve/1.1.7/package.tgz
+135 silly lockFile 218fd9bf-r-root-npm-resolve-1-1-7-package tar:///root/.npm/resolve/1.1.7/package
+136 verbose lock tar:///root/.npm/resolve/1.1.7/package /root/.npm/218fd9bf-r-root-npm-resolve-1-1-7-package.lock
+137 silly lockFile ffe3821d-ot-npm-resolve-1-1-7-package-tgz tar:///root/.npm/resolve/1.1.7/package.tgz
+138 verbose lock tar:///root/.npm/resolve/1.1.7/package.tgz /root/.npm/ffe3821d-ot-npm-resolve-1-1-7-package-tgz.lock
+139 silly gunzTarPerm modes [ '755', '644' ]
+140 silly gunzTarPerm extractEntry package.json
+141 silly gunzTarPerm extractEntry LICENSE
+142 silly gunzTarPerm extractEntry index.js
+143 silly gunzTarPerm extractEntry .travis.yml
+144 silly gunzTarPerm extractEntry example/async.js
+145 silly gunzTarPerm extractEntry example/sync.js
+146 silly gunzTarPerm extractEntry lib/async.js
+147 silly gunzTarPerm extractEntry lib/caller.js
+148 silly gunzTarPerm extractEntry lib/core.js
+149 silly gunzTarPerm extractEntry lib/node-modules-paths.js
+150 silly gunzTarPerm extractEntry lib/sync.js
+151 silly gunzTarPerm extractEntry lib/core.json
+152 silly gunzTarPerm extractEntry readme.markdown
+153 silly gunzTarPerm extractEntry test/core.js
+154 silly gunzTarPerm extractEntry test/filter.js
+155 silly gunzTarPerm extractEntry test/filter_sync.js
+156 silly gunzTarPerm extractEntry test/mock.js
+157 silly gunzTarPerm extractEntry test/faulty_basedir.js
+158 silly gunzTarPerm extractEntry test/resolver_sync.js
+159 silly gunzTarPerm extractEntry test/module_dir.js
+160 silly gunzTarPerm extractEntry test/resolver.js
+161 silly gunzTarPerm extractEntry test/precedence.js
+162 silly gunzTarPerm extractEntry test/nonstring.js
+163 silly gunzTarPerm extractEntry test/dotdot.js
+164 silly gunzTarPerm extractEntry test/pathfilter.js
+165 silly gunzTarPerm extractEntry test/mock_sync.js
+166 silly gunzTarPerm extractEntry test/subdirs.js
+167 silly gunzTarPerm extractEntry test/node_path.js
+168 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/main.js
+169 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/package.json
+170 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/alt.js
+171 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/ref.js
+172 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/deeper/ref.js
+173 silly gunzTarPerm extractEntry test/precedence/aaa.js
+174 silly gunzTarPerm extractEntry test/precedence/bbb.js
+175 silly gunzTarPerm extractEntry test/precedence/aaa/index.js
+176 silly gunzTarPerm extractEntry test/precedence/aaa/main.js
+177 silly gunzTarPerm extractEntry test/precedence/bbb/main.js
+178 silly gunzTarPerm extractEntry test/dotdot/index.js
+179 silly gunzTarPerm extractEntry test/dotdot/abc/index.js
+180 silly gunzTarPerm extractEntry test/resolver/foo.js
+181 silly gunzTarPerm extractEntry test/resolver/mug.js
+182 silly gunzTarPerm extractEntry test/resolver/mug.coffee
+183 silly gunzTarPerm extractEntry test/resolver/cup.coffee
+184 silly gunzTarPerm extractEntry test/resolver/bar/node_modules/foo/index.js
+185 silly gunzTarPerm extractEntry test/resolver/incorrect_main/package.json
+186 silly gunzTarPerm extractEntry test/resolver/incorrect_main/index.js
+187 silly gunzTarPerm extractEntry test/resolver/baz/package.json
+188 silly gunzTarPerm extractEntry test/resolver/baz/doom.js
+189 silly gunzTarPerm extractEntry test/resolver/baz/quux.js
+190 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/package.json
+191 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/lib/index.js
+192 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/grux/index.js
+193 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/tiv/index.js
+194 silly gunzTarPerm extractEntry test/resolver/other_path/root.js
+195 silly gunzTarPerm extractEntry test/resolver/other_path/lib/other-lib.js
+196 silly gunzTarPerm extractEntry test/resolver/punycode/node_modules/punycode/index.js
+197 silly gunzTarPerm extractEntry test/resolver/quux/foo/index.js
+198 silly gunzTarPerm extractEntry test/resolver/without_basedir/main.js
+199 silly gunzTarPerm extractEntry test/resolver/without_basedir/node_modules/mymodule.js
+200 silly gunzTarPerm extractEntry test/node_path/x/aaa/index.js
+201 silly gunzTarPerm extractEntry test/node_path/x/ccc/index.js
+202 silly gunzTarPerm extractEntry test/node_path/y/bbb/index.js
+203 silly gunzTarPerm extractEntry test/node_path/y/ccc/index.js
+204 silly gunzTarPerm extractEntry test/module_dir/xmodules/aaa/index.js
+205 silly gunzTarPerm extractEntry test/module_dir/ymodules/aaa/index.js
+206 silly gunzTarPerm extractEntry test/module_dir/zmodules/bbb/package.json
+207 silly gunzTarPerm extractEntry test/module_dir/zmodules/bbb/main.js
+208 silly gunzTarPerm extractEntry test/subdirs/node_modules/a/package.json
+209 silly gunzTarPerm extractEntry test/subdirs/node_modules/a/b/c/x.json
+210 silly lockFile 218fd9bf-r-root-npm-resolve-1-1-7-package tar:///root/.npm/resolve/1.1.7/package
+211 silly lockFile 218fd9bf-r-root-npm-resolve-1-1-7-package tar:///root/.npm/resolve/1.1.7/package
+212 silly lockFile ffe3821d-ot-npm-resolve-1-1-7-package-tgz tar:///root/.npm/resolve/1.1.7/package.tgz
+213 silly lockFile ffe3821d-ot-npm-resolve-1-1-7-package-tgz tar:///root/.npm/resolve/1.1.7/package.tgz
+214 verbose chmod /root/.npm/resolve/1.1.7/package.tgz 644
+215 verbose chown /root/.npm/resolve/1.1.7/package.tgz [ 0, 0 ]
+216 silly lockFile 84660c87-js-org-resolve-resolve-1-1-7-tgz https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz
+217 silly lockFile 84660c87-js-org-resolve-resolve-1-1-7-tgz https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz
+218 silly lockFile 48e02e1e-resolve-1-1-7 resolve@1.1.7
+219 silly lockFile 48e02e1e-resolve-1-1-7 resolve@1.1.7
+220 silly lockFile a9c986b1-resolve resolve@
+221 silly lockFile a9c986b1-resolve resolve@
+222 silly resolved [ { name: 'resolve',
+222 silly resolved     description: 'resolve like require.resolve() on behalf of files asynchronously and synchronously',
+222 silly resolved     version: '1.1.7',
+222 silly resolved     repository:
+222 silly resolved      { type: 'git',
+222 silly resolved        url: 'git://github.com/substack/node-resolve.git' },
+222 silly resolved     main: 'index.js',
+222 silly resolved     keywords: [ 'resolve', 'require', 'node', 'module' ],
+222 silly resolved     scripts: { test: 'tape test/*.js' },
+222 silly resolved     devDependencies: { tape: '^3.5.0', tap: '0.4.13' },
+222 silly resolved     license: 'MIT',
+222 silly resolved     author:
+222 silly resolved      { name: 'James Halliday',
+222 silly resolved        email: 'mail@substack.net',
+222 silly resolved        url: 'http://substack.net' },
+222 silly resolved     readme: '# resolve\n\nimplements the [node `require.resolve()`\nalgorithm](http://nodejs.org/docs/v0.4.8/api/all.html#all_Together...)\nsuch that you can `require.resolve()` on behalf of a file asynchronously and\nsynchronously\n\n[![build status](https://secure.travis-ci.org/substack/node-resolve.png)](http://travis-ci.org/substack/node-resolve)\n\n# example\n\nasynchronously resolve:\n\n``` js\nvar resolve = require(\'resolve\');\nresolve(\'tap\', { basedir: __dirname }, function (err, res) {\n    if (err) console.error(err)\n    else console.log(res)\n});\n```\n\n```\n$ node example/async.js\n/home/substack/projects/node-resolve/node_modules/tap/lib/main.js\n```\n\nsynchronously resolve:\n\n``` js\nvar resolve = require(\'resolve\');\nvar res = resolve.sync(\'tap\', { basedir: __dirname });\nconsole.log(res);\n```\n\n```\n$ node example/sync.js\n/home/substack/projects/node-resolve/node_modules/tap/lib/main.js\n```\n\n# methods\n\n``` js\nvar resolve = require(\'resolve\')\n```\n\n## resolve(id, opts={}, cb)\n\nAsynchronously resolve the module path string `id` into `cb(err, res [, pkg])`, where `pkg` (if defined) is the data from `package.json`.\n\noptions are:\n\n* opts.basedir - directory to begin resolving from\n\n* opts.package - `package.json` data applicable to the module being loaded\n\n* opts.extensions - array of file extensions to search in order\n\n* opts.readFile - how to read files asynchronously\n\n* opts.isFile - function to asynchronously test whether a file exists\n\n* opts.packageFilter - transform the parsed package.json contents before looking\nat the "main" field\n\n* opts.pathFilter(pkg, path, relativePath) - transform a path within a package\n  * pkg - package data\n  * path - the path being resolved\n  * relativePath - the path relative from the package.json location\n  * returns - a relative path that will be joined from the package.json location\n\n* opts.paths - require.paths array to use if nothing is found on the normal\nnode_modules recursive walk (probably don\'t use this)\n\n* opts.moduleDirectory - directory (or directories) in which to recursively look for modules. default: `"node_modules"`\n\ndefault `opts` values:\n\n``` javascript\n{\n    paths: [],\n    basedir: __dirname,\n    extensions: [ \'.js\' ],\n    readFile: fs.readFile,\n    isFile: function (file, cb) {\n        fs.stat(file, function (err, stat) {\n            if (err && err.code === \'ENOENT\') cb(null, false)\n            else if (err) cb(err)\n            else cb(null, stat.isFile())\n        });\n    },\n    moduleDirectory: \'node_modules\'\n}\n```\n\n## resolve.sync(id, opts)\n\nSynchronously resolve the module path string `id`, returning the result and\nthrowing an error when `id` can\'t be resolved.\n\noptions are:\n\n* opts.basedir - directory to begin resolving from\n\n* opts.extensions - array of file extensions to search in order\n\n* opts.readFile - how to read files synchronously\n\n* opts.isFile - function to synchronously test whether a file exists\n\n* `opts.packageFilter(pkg, pkgfile)` - transform the parsed package.json\n* contents before looking at the "main" field\n\n* opts.paths - require.paths array to use if nothing is found on the normal\nnode_modules recursive walk (probably don\'t use this)\n\n* opts.moduleDirectory - directory (or directories) in which to recursively look for modules. default: `"node_modules"`\n\ndefault `opts` values:\n\n``` javascript\n{\n    paths: [],\n    basedir: __dirname,\n    extensions: [ \'.js\' ],\n    readFileSync: fs.readFileSync,\n    isFile: function (file) {\n        try { return fs.statSync(file).isFile() }\n        catch (e) { return false }\n    },\n    moduleDirectory: \'node_modules\'\n}\n````\n\n## resolve.isCore(pkg)\n\nReturn whether a package is in core.\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install resolve\n```\n\n# license\n\nMIT\n',
+222 silly resolved     readmeFilename: 'readme.markdown',
+222 silly resolved     bugs: { url: 'https://github.com/substack/node-resolve/issues' },
+222 silly resolved     _id: 'resolve@1.1.7',
+222 silly resolved     dist: { shasum: 'e3188850061423ff5baaa2d014a2b02557a516a3' },
+222 silly resolved     _from: 'resolve@',
+222 silly resolved     _resolved: 'https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz' } ]
+223 info install resolve@1.1.7 into /vagrant/github/rails-reactjs
+224 info installOne resolve@1.1.7
+225 info /vagrant/github/rails-reactjs/node_modules/resolve unbuild
+226 verbose tar unpack /root/.npm/resolve/1.1.7/package.tgz
+227 silly lockFile f1109ae8-ils-reactjs-node-modules-resolve tar:///vagrant/github/rails-reactjs/node_modules/resolve
+228 verbose lock tar:///vagrant/github/rails-reactjs/node_modules/resolve /root/.npm/f1109ae8-ils-reactjs-node-modules-resolve.lock
+229 silly lockFile ffe3821d-ot-npm-resolve-1-1-7-package-tgz tar:///root/.npm/resolve/1.1.7/package.tgz
+230 verbose lock tar:///root/.npm/resolve/1.1.7/package.tgz /root/.npm/ffe3821d-ot-npm-resolve-1-1-7-package-tgz.lock
+231 silly gunzTarPerm modes [ '755', '644' ]
+232 silly gunzTarPerm extractEntry package.json
+233 silly gunzTarPerm extractEntry LICENSE
+234 silly gunzTarPerm extractEntry index.js
+235 silly gunzTarPerm extractEntry .travis.yml
+236 silly gunzTarPerm extractEntry example/async.js
+237 silly gunzTarPerm extractEntry example/sync.js
+238 silly gunzTarPerm extractEntry lib/async.js
+239 silly gunzTarPerm extractEntry lib/caller.js
+240 silly gunzTarPerm extractEntry lib/core.js
+241 silly gunzTarPerm extractEntry lib/node-modules-paths.js
+242 silly gunzTarPerm extractEntry lib/sync.js
+243 silly gunzTarPerm extractEntry lib/core.json
+244 silly gunzTarPerm extractEntry readme.markdown
+245 silly gunzTarPerm extractEntry test/core.js
+246 silly gunzTarPerm extractEntry test/filter.js
+247 silly gunzTarPerm extractEntry test/filter_sync.js
+248 silly gunzTarPerm extractEntry test/mock.js
+249 silly gunzTarPerm extractEntry test/faulty_basedir.js
+250 silly gunzTarPerm extractEntry test/resolver_sync.js
+251 silly gunzTarPerm extractEntry test/module_dir.js
+252 silly gunzTarPerm extractEntry test/resolver.js
+253 silly gunzTarPerm extractEntry test/precedence.js
+254 silly gunzTarPerm extractEntry test/nonstring.js
+255 silly gunzTarPerm extractEntry test/dotdot.js
+256 silly gunzTarPerm extractEntry test/pathfilter.js
+257 silly gunzTarPerm extractEntry test/mock_sync.js
+258 silly gunzTarPerm extractEntry test/subdirs.js
+259 silly gunzTarPerm extractEntry test/node_path.js
+260 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/main.js
+261 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/package.json
+262 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/alt.js
+263 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/ref.js
+264 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/deeper/ref.js
+265 silly gunzTarPerm extractEntry test/precedence/aaa.js
+266 silly gunzTarPerm extractEntry test/precedence/bbb.js
+267 silly gunzTarPerm extractEntry test/precedence/aaa/index.js
+268 silly gunzTarPerm extractEntry test/precedence/aaa/main.js
+269 silly gunzTarPerm extractEntry test/precedence/bbb/main.js
+270 silly gunzTarPerm extractEntry test/dotdot/index.js
+271 silly gunzTarPerm extractEntry test/dotdot/abc/index.js
+272 silly gunzTarPerm extractEntry test/resolver/foo.js
+273 silly gunzTarPerm extractEntry test/resolver/mug.js
+274 silly gunzTarPerm extractEntry test/resolver/mug.coffee
+275 silly gunzTarPerm extractEntry test/resolver/cup.coffee
+276 silly gunzTarPerm extractEntry test/resolver/bar/node_modules/foo/index.js
+277 silly gunzTarPerm extractEntry test/resolver/incorrect_main/package.json
+278 silly gunzTarPerm extractEntry test/resolver/incorrect_main/index.js
+279 silly gunzTarPerm extractEntry test/resolver/baz/package.json
+280 silly gunzTarPerm extractEntry test/resolver/baz/doom.js
+281 silly gunzTarPerm extractEntry test/resolver/baz/quux.js
+282 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/package.json
+283 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/lib/index.js
+284 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/grux/index.js
+285 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/tiv/index.js
+286 silly gunzTarPerm extractEntry test/resolver/other_path/root.js
+287 silly gunzTarPerm extractEntry test/resolver/other_path/lib/other-lib.js
+288 silly gunzTarPerm extractEntry test/resolver/punycode/node_modules/punycode/index.js
+289 silly gunzTarPerm extractEntry test/resolver/quux/foo/index.js
+290 silly gunzTarPerm extractEntry test/resolver/without_basedir/main.js
+291 silly gunzTarPerm extractEntry test/resolver/without_basedir/node_modules/mymodule.js
+292 silly gunzTarPerm extractEntry test/node_path/x/aaa/index.js
+293 silly gunzTarPerm extractEntry test/node_path/x/ccc/index.js
+294 silly gunzTarPerm extractEntry test/node_path/y/bbb/index.js
+295 silly gunzTarPerm extractEntry test/node_path/y/ccc/index.js
+296 silly gunzTarPerm extractEntry test/module_dir/xmodules/aaa/index.js
+297 silly gunzTarPerm extractEntry test/module_dir/ymodules/aaa/index.js
+298 silly gunzTarPerm extractEntry test/module_dir/zmodules/bbb/package.json
+299 silly gunzTarPerm extractEntry test/module_dir/zmodules/bbb/main.js
+300 silly gunzTarPerm extractEntry test/subdirs/node_modules/a/package.json
+301 silly gunzTarPerm extractEntry test/subdirs/node_modules/a/b/c/x.json
+302 silly lockFile f1109ae8-ils-reactjs-node-modules-resolve tar:///vagrant/github/rails-reactjs/node_modules/resolve
+303 silly lockFile f1109ae8-ils-reactjs-node-modules-resolve tar:///vagrant/github/rails-reactjs/node_modules/resolve
+304 silly lockFile ffe3821d-ot-npm-resolve-1-1-7-package-tgz tar:///root/.npm/resolve/1.1.7/package.tgz
+305 silly lockFile ffe3821d-ot-npm-resolve-1-1-7-package-tgz tar:///root/.npm/resolve/1.1.7/package.tgz
+306 info preinstall resolve@1.1.7
+307 verbose readDependencies using package.json deps
+308 verbose readDependencies using package.json deps
+309 silly resolved []
+310 verbose about to build /vagrant/github/rails-reactjs/node_modules/resolve
+311 info build /vagrant/github/rails-reactjs/node_modules/resolve
+312 verbose linkStuff [ false,
+312 verbose linkStuff   false,
+312 verbose linkStuff   false,
+312 verbose linkStuff   '/vagrant/github/rails-reactjs/node_modules' ]
+313 info linkStuff resolve@1.1.7
+314 verbose linkBins resolve@1.1.7
+315 verbose linkMans resolve@1.1.7
+316 verbose rebuildBundles resolve@1.1.7
+317 info install resolve@1.1.7
+318 info postinstall resolve@1.1.7
+319 error peerinvalid The package webpack does not satisfy its siblings' peerDependencies requirements!
+319 error peerinvalid Peer babel-loader@6.2.8 wants webpack@1 || ^2.1.0-beta
+319 error peerinvalid Peer webpack-dev-middleware@1.8.4 wants webpack@1 || ^2.1.0-beta
+319 error peerinvalid Peer webpack-dev-server@1.16.2 wants webpack@>=1.3.0 <3
+320 error System Linux 4.2.0-35-generic
+321 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "resolve"
+322 error cwd /vagrant/github/rails-reactjs
+323 error node -v v0.10.25
+324 error npm -v 1.3.10
+325 error code EPEERINVALID
+326 verbose exit [ 1, true ]
