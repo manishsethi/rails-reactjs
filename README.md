@@ -1,1 +1,3 @@
 # rails-reactjs
+
+App creation
