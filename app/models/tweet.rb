@@ -9,4 +9,7 @@ class Tweet < ApplicationRecord
     user.display_name
   end
 
+  def gravatar
+    hash = Digest::MD5.hexdigest(user.email)
+  end
 end
