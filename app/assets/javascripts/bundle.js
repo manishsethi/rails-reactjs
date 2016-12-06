@@ -384,7 +384,10 @@
 	  _createClass(TweetEventEmitter, [{
 	    key: "getAll",
 	    value: function getAll() {
-	      return _tweets;
+	      return _tweets.map(function (tweet) {
+	        tweet.formattedDate = moment(tweet.created_at).fromNow();
+	        return tweet;
+	      });
 	    }
 	  }, {
 	    key: "emitChange",
