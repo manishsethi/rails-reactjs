@@ -22509,7 +22509,7 @@
 	      rawTweets: rawTweets
 	    });
 	  },
-	  receivedOneTweets: function receivedOneTweets(rawTweet) {
+	  receivedOneTweet: function receivedOneTweet(rawTweet) {
 	    // console.log(3, "ServerActions.receivedTweets")
 	    _dispatcher2.default.dispatch({
 	      actionType: _constants2.default.RECEIVED_ONE_TWEET,
