@@ -9,7 +9,7 @@ export default {
       rawTweets
     })
   },
-  receivedOneTweets(rawTweet){
+  receivedOneTweet(rawTweet){
     // console.log(3, "ServerActions.receivedTweets")
     AppDispatcher.dispatch({
       actionType: ActionTypes.RECEIVED_ONE_TWEET,
