@@ -15,7 +15,9 @@
     "babel-core": "*",
     "babel-loader": "^6.2.8",
     "events": "~1.1.1",
-    "flux": "~3.1.0"
+    "flux": "~3.1.0",
+    "react": "~15.4.1",
+    "react-dom": "~15.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
